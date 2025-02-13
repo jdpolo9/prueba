@@ -1,0 +1,35 @@
+#titulo {
+    color: pink;
+}
+
+#texto {
+    color: pink;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 50rem;
+    height: 40rem;
+    padding: 2rem;
+}
+
+button {
+    padding: 1rem;
+    background-color: pink;
+    color: white;
+    font-size: medium;
+    border-radius: 1rem;
+    border-color: pink;
+}
+
+button:hover {
+    background-color: rgb(216, 157, 167);
+    border-color: rgb(216, 157, 167);
+    cursor: pointer;
+}
